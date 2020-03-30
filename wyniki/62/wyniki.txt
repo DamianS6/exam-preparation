@@ -1,0 +1,11 @@
+62.1
+Najmniejsza: 1002
+Najwieksza: 777044
+62.2
+Najdluzszy niemalejacy ciag w pliku liczby2.txt rozpoczyna sie liczba 639 i sklada sie z 6 elementow.
+62.3
+a) 160 wierszy
+b) 357 wierszy
+62.4
+Cyfra 6 w zapisie dziesietnym liczb z pliku liczby2.txt wystepuje 411 razy.
+Gdyby te samy liczby zapisac w systemie osemkowym, cyfra 6 wystapilaby 625 razy.
