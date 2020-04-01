@@ -1,0 +1,42 @@
+64.1
+13 rewersow. Najwieksza liczba czarnych pikseli w jednym obrazku: 381.
+64.2
+Liczba rekurencyjnych obrazkow: 60.
+Pierwszy rekurencyjny obrazek:
+11111111111111111111
+00000000000000000000
+11111111111111111111
+00000000000000000000
+11111111111111111111
+00000000000000000000
+11111111111111111111
+00000000000000000000
+11111111111111111111
+00000000000000000000
+11111111111111111111
+00000000000000000000
+11111111111111111111
+00000000000000000000
+11111111111111111111
+00000000000000000000
+11111111111111111111
+00000000000000000000
+11111111111111111111
+00000000000000000000
+64.3
+Poprawne: 171, naprawialne: 14, nienaprawialne: 15, najwieksza liczba bledow w jednym obrazku: 7.
+64.4
+Obrazek 14, wiersz 1, kolumna 15.
+Obrazek 19, wiersz 4, kolumna 20.
+Obrazek 26, wiersz 21, kolumna 13.
+Obrazek 29, wiersz 2, kolumna 8.
+Obrazek 33, wiersz 15, kolumna 21.
+Obrazek 115, wiersz 21, kolumna 14.
+Obrazek 116, wiersz 21, kolumna 13.
+Obrazek 129, wiersz 21, kolumna 14.
+Obrazek 131, wiersz 10, kolumna 7.
+Obrazek 143, wiersz 7, kolumna 15.
+Obrazek 154, wiersz 7, kolumna 7.
+Obrazek 161, wiersz 21, kolumna 17.
+Obrazek 162, wiersz 21, kolumna 16.
+Obrazek 187, wiersz 21, kolumna 18.
