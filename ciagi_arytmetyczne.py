@@ -9,7 +9,7 @@ with open(r'dane/61/ciagi.txt') as dane:
         if len(ciag) <= 5:
             ciagi.append([int(ciag.rstrip())])
         else:
-            for sign in ciag.rstrip().split(sep=' '):
+            for sign in ciag.rstrip().split(' '):
                 ciagi[n].append(int(sign))
             n += 1
 

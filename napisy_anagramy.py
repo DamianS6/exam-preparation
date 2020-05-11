@@ -3,9 +3,7 @@ import time
 start = time.time()
 
 with open(r'dane/68/dane_napisy.txt') as dane:
-    napisy = []
-    for line in dane.readlines():
-        napisy.append(line.rstrip().split(' '))
+    napisy = [__.rstrip().split(' ') for __ in dane.readlines()]
 
 
 """

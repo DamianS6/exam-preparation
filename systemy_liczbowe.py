@@ -1,14 +1,10 @@
 def systemy():
-    stacja1, stacja2, stacja3 = [], [], []
     with open(r"dane\58\dane_systemy1.txt") as dane:
-        for __ in dane.readlines():
-            stacja1.append(list(__.rstrip().split(' ')))
+        stacja1 = [list(__.rstrip().split(' ')) for __ in dane.readlines()]
     with open(r"dane\58\dane_systemy2.txt") as dane:
-        for __ in dane.readlines():
-            stacja2.append(list(__.rstrip().split(' ')))
+        stacja2 = [list(__.rstrip().split(' ')) for __ in dane.readlines()]
     with open(r"dane\58\dane_systemy3.txt") as dane:
-        for __ in dane.readlines():
-            stacja3.append(list(__.rstrip().split(' ')))
+        stacja3 = [list(__.rstrip().split(' ')) for __ in dane.readlines()]
 
     measures_len = max(len(stacja1), len(stacja2), len(stacja3))  # W razie gdyby pliki były różnej długości.
 
