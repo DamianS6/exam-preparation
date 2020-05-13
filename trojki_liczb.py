@@ -2,9 +2,7 @@ import time
 start = time.time()
 
 with open(r'dane/66/trojki.txt') as dane:
-    trojki = []
-    for l in dane.readlines():
-        trojki.append(l.rstrip().split(' '))
+    trojki = [l.rstrip().split(' ') for l in dane.readlines()]
     for l in range(len(trojki)):
         for __ in range(3):
             trojki[l][__] = int(trojki[l][__])

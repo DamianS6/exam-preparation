@@ -1,0 +1,3 @@
+69.1
+Liczba wszystkich gatunkow: 207
+Najwieksza liczba osobnikow jednego gatunku: 20
