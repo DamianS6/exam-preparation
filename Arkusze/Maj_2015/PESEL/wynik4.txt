@@ -1,0 +1,10 @@
+4.1.
+422
+
+4.2.
+Liczby podzielne przez 2: 500
+Liczby podzielne przez 8: 123
+
+4.3.
+Wiersz najmniejszej liczby: 858
+Wiersz najwiekszej liczby: 924
