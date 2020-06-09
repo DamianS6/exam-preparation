@@ -1,0 +1,15 @@
+4.1.
+18
+
+4.2.
+5
+
+4.3.
+A(9901, 593)
+B(35, 9583)
+Odleglosc: 13348
+
+4.4.
+Wewnatrz: 249
+Na bokach: 2
+Na zewnatrz: 749
