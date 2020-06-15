@@ -1,0 +1,9 @@
+4.1
+942
+
+4.2
+Gracz numer 812, ktory uzyskal 265 punktow.
+
+4.3
+774
+Liczba takich ruchow: 15
