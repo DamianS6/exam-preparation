@@ -1,0 +1,19 @@
+4.1
+Dla zestawu pierwszego Jas uzyskal 54 punktow.
+Dla zestawu drugiego Jas uzyskal 37 punktow.
+Dla zestawu trzeciego Jas uzyskal 74 punktow.
+
+4.2
+Pierwszy zestaw: 247 sekund.
+Drugi zestaw: 182 sekund.
+Trzeci zestaw: 247 sekund.
+
+4.3
+Pierwszy zestaw: 211 sekunda.
+Drugi zestaw: 118 sekunda.
+Trzeci zestaw: 195 sekunda.
+
+4.4
+Dla zestawu pierwszego Jas uzyskalby 367 punktow.
+Dla zestawu drugiego Jas uzyskalby 149 punktow.
+Dla zestawu trzeciego Jas uzyskalby 1108 punktow.
