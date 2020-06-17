@@ -20,7 +20,7 @@ def punkty():
             tarcza = tarcza.split()
             c1, c2 = int(tarcza[0]), int(tarcza[0]) + int(tarcza[1])
             for strzal in strzaly1:
-                if c1 <= int(strzal) <= c2:
+                if c1 <= int(strzal) < c2:
                     pkty += 1
                     break
         wyniki.write(f"Dla zestawu pierwszego Jas uzyskal {pkty} punktow.\n")
@@ -29,7 +29,7 @@ def punkty():
             tarcza = tarcza.split()
             c1, c2 = int(tarcza[0]), int(tarcza[0]) + int(tarcza[1])
             for strzal in strzaly2:
-                if c1 <= int(strzal) <= c2:
+                if c1 <= int(strzal) < c2:
                     pkty += 1
                     break
         wyniki.write(f"Dla zestawu drugiego Jas uzyskal {pkty} punktow.\n")
@@ -38,7 +38,7 @@ def punkty():
             tarcza = tarcza.split()
             c1, c2 = int(tarcza[0]), int(tarcza[0]) + int(tarcza[1])
             for strzal in strzaly3:
-                if c1 <= int(strzal) <= c2:
+                if c1 <= int(strzal) < c2:
                     pkty += 1
                     break
         wyniki.write(f"Dla zestawu trzeciego Jas uzyskal {pkty} punktow.\n")
@@ -81,7 +81,7 @@ def sekunda():
             for tarcza in tarcze1:
                 tarcza = tarcza.split()
                 c1, c2 = int(tarcza[0]), int(tarcza[0]) + int(tarcza[1])
-                if c1 <= int(strzal) <= c2:
+                if c1 <= int(strzal) < c2:
                     pkty += 1
             if pkty > najwiecej:
                 najlepsza = int(strzal)
@@ -93,7 +93,7 @@ def sekunda():
             for tarcza in tarcze2:
                 tarcza = tarcza.split()
                 c1, c2 = int(tarcza[0]), int(tarcza[0]) + int(tarcza[1])
-                if c1 <= int(strzal) <= c2:
+                if c1 <= int(strzal) < c2:
                     pkty += 1
             if pkty > najwiecej:
                 najlepsza = int(strzal)
@@ -105,7 +105,7 @@ def sekunda():
             for tarcza in tarcze3:
                 tarcza = tarcza.split()
                 c1, c2 = int(tarcza[0]), int(tarcza[0]) + int(tarcza[1])
-                if c1 <= int(strzal) <= c2:
+                if c1 <= int(strzal) < c2:
                     pkty += 1
             if pkty > najwiecej:
                 najlepsza = int(strzal)
@@ -122,7 +122,7 @@ def gdyby():
             for tarcza in tarcze1:
                 tarcza = tarcza.split()
                 c1, c2 = int(tarcza[0]), int(tarcza[0]) + int(tarcza[1])
-                if c1 <= int(strzal) <= c2:
+                if c1 <= int(strzal) < c2:
                     pkty += 1
         wyniki.write(f"Dla zestawu pierwszego Jas uzyskalby {pkty} punktow.\n")
         pkty = 0
@@ -130,7 +130,7 @@ def gdyby():
             for tarcza in tarcze2:
                 tarcza = tarcza.split()
                 c1, c2 = int(tarcza[0]), int(tarcza[0]) + int(tarcza[1])
-                if c1 <= int(strzal) <= c2:
+                if c1 <= int(strzal) < c2:
                     pkty += 1
         wyniki.write(f"Dla zestawu drugiego Jas uzyskalby {pkty} punktow.\n")
         pkty = 0
@@ -138,7 +138,7 @@ def gdyby():
             for tarcza in tarcze3:
                 tarcza = tarcza.split()
                 c1, c2 = int(tarcza[0]), int(tarcza[0]) + int(tarcza[1])
-                if c1 <= int(strzal) <= c2:
+                if c1 <= int(strzal) < c2:
                     pkty += 1
         wyniki.write(f"Dla zestawu trzeciego Jas uzyskalby {pkty} punktow.\n")
 
